@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1110px;
+  gap: 30px;
+  .container_with_img {
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // gap: 0px;
+    gap: 30px;
+    .img_item {
+      display: flex;
+      .future {
+        max-width: 350px;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 56px;
+        color: rgba(0, 0, 26, 1);
+      }
+      .text {
+        max-width: 340px;
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 26px;
+          color: rgba(94, 96, 122, 1);
+          margin-bottom: 42px;
+        }
+        button {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          background: rgba(241, 93, 81, 1);
+          color: rgba(255, 253, 250, 1);
+          padding: 13px 31px;
+          letter-spacing: 5px;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+  .container_with_bg {
+    background: rgba(0, 0, 26, 1);
+    padding: 24px 32px;
+    h2 {
+      color: rgba(233, 170, 82, 1);
+      font-weight: 700;
+      font-size: 40px;
+    //   margin-bottom: 34px;
+    }
+    .container-item {
+      div {
+       border-bottom: 1px solid rgba(94, 96, 122, 1);
+       padding:29px 0;
+        h3 {
+          font-weight: 800;
+          font-size: 20px;
+          line-height: 24px;
+          color: rgba(255, 253, 250, 1);
+          margin-bottom: 8px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: rgba(197, 198, 206, 1);
+        }
+      }
+      .last{
+        border-bottom: none;
+        padding-bottom: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: inter, sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1110px;
+  gap: 30px;
+}
+.wrapper .container_with_img {
+  max-width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+.wrapper .container_with_img .img_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .container_with_img .img_item .future {
+  max-width: 350px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+  color: rgb(0, 0, 26);
+}
+.wrapper .container_with_img .img_item .text {
+  max-width: 340px;
+}
+.wrapper .container_with_img .img_item .text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: rgb(94, 96, 122);
+  margin-bottom: 42px;
+}
+.wrapper .container_with_img .img_item .text button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  background: rgb(241, 93, 81);
+  color: rgb(255, 253, 250);
+  padding: 13px 31px;
+  letter-spacing: 5px;
+  border: none;
+  outline: none;
+}
+.wrapper .container_with_bg {
+  background: rgb(0, 0, 26);
+  padding: 24px 32px;
+}
+.wrapper .container_with_bg h2 {
+  color: rgb(233, 170, 82);
+  font-weight: 700;
+  font-size: 40px;
+}
+.wrapper .container_with_bg .container-item div {
+  border-bottom: 1px solid rgb(94, 96, 122);
+  padding: 29px 0;
+}
+.wrapper .container_with_bg .container-item div h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 253, 250);
+  margin-bottom: 8px;
+}
+.wrapper .container_with_bg .container-item div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb(197, 198, 206);
+}
+.wrapper .container_with_bg .container-item .last {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
